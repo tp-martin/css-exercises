@@ -2,3 +2,8 @@ p {
     background-color: rgb(243, 77, 105);
     font-family: Verdana, "DejaVu Sans", sans-serif;
 }
+
+#number-2 {
+    color: #6495ED;
+    font-size: 36px;
+}
