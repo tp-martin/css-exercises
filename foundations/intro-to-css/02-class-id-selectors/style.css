@@ -7,3 +7,13 @@ p {
     color: #6495ED;
     font-size: 36px;
 }
+
+#number-3 {
+    font-size: 24px;
+}
+
+#number-4 {
+    background-color: hsl(99, 44%, 61%);
+    font-size: 24px;
+    font-weight: bold;
+}
