@@ -1,14 +1,16 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
 }
 
 .info {
   display: flex;
+  justify-content: center;
 }
 
 .plant {
-  padding: 0px 52px;
-  width: 200px;
+  gap: 52px;
+  max-width: 200px;
   text-align: center;
 }
 
