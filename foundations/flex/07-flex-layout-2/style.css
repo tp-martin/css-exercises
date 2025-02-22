@@ -12,12 +12,19 @@ body {
   color: white;
   display: flex;
   flex: 1;
+  font-size: 32px;
+  font-weight: 900;
+  align-items: center;
+  padding: 0 16px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -35,6 +42,8 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  padding:16px;
+  width: 300px;
 }
 
 .content {
@@ -42,10 +51,19 @@ body {
   flex: 1;
 }
 
-li,
 a {
   list-style: none;
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
+li {
+  list-style: none;
+}
+
+.cards {
+  display: flex;
+  padding: 48px;
+  flex-wrap: wrap;
+}
